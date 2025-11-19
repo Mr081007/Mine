@@ -1,5 +1,5 @@
-import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js";
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp";
+import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse";
 import { z } from "zod";
 
 export default {
