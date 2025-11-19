@@ -2,6 +2,8 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js";
 import { z } from "zod";
 
+// ... 下面的代码保持不变 ...
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
